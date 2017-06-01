@@ -6,5 +6,5 @@ image:
 jflex:
 	docker run -v $(FOLDER_PATH):/app -w /app -it containerjflexbyacc jflex $(flex)
 
-byacc:
-	docker run -v $(FOLDER_PATH):/app -w /app -it containerjflexbyacc byacc $(y)
+yacc:
+	docker run -v $(FOLDER_PATH):/app -w /app -it containerjflexbyacc yacc $(y)
